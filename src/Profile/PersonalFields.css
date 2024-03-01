@@ -1,0 +1,12 @@
+.field{
+    display: flex;
+    flex-direction: column;
+    color: rgb(81, 79, 79);
+    gap: 12px;
+  }
+  .fieldedit{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    text-align: center;
+  }

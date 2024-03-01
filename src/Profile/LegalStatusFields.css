@@ -1,0 +1,11 @@
+.status{
+    display: flex;
+    justify-content: space-between;
+  }
+  #highlight{
+    background-color: rgb(162, 229, 162);
+    margin-left: 1rem;
+  }
+  #checkscore{
+    width: 6.5rem;
+  }

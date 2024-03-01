@@ -86,18 +86,6 @@
   font-weight: bold;
   cursor: pointer;
 }
-.name, .email, .phone, .address{
-  display: flex;
-  flex-direction: column;
-  color: rgb(81, 79, 79);
-  gap: 12px;
-}
-.nameedit, .emailedit, .phoneedit, .addressedit{
-  display: flex;
-  color: black;
-  justify-content: space-between;
-  text-align: center;
-}
 .aboutedit{
   display: flex;
   justify-content: space-between;
@@ -137,17 +125,6 @@
   border-radius: 1rem;
   font-weight: bold;
   cursor: pointer;
-}
-.status{
-  display: flex;
-  justify-content: space-between;
-}
-#highlight{
-  background-color: rgb(162, 229, 162);
-  margin-left: 1rem;
-}
-#checkscore{
-  width: 6.5rem;
 }
 
 .professional, .ratings{

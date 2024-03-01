@@ -1,5 +1,9 @@
 import React from "react";
 import "./Profile.css";
+
+import PersonalFields from "./PersonalFields.jsx";
+import LegalStatusFields from "./LegalStatusFields.jsx";
+
 import profile from "../assets/Home Assets/profile.png";
 import professional from "../assets/Profile Assets/professional.png";
 import rating from "../assets/Profile Assets/rating.png";
@@ -18,34 +22,10 @@ function Profile() {
           </div>
 
           <div className="personalinfo">
-            <div className="name">
-              <p>Your Name</p>
-              <div className="nameedit">
-                <p>Viresh</p>
-                <button>Edit</button>
-              </div>
-            </div>
-            <div className="email">
-              <p>Email</p>
-              <div className="emailedit">
-                <p>vireshkoli123@gmail.com</p>
-                <button>Edit</button>
-              </div>
-            </div>
-            <div className="phone">
-              <p>Phone Number</p>
-              <div className="phoneedit">
-                <p>+91 9876543210</p>
-                <button>Edit</button>
-              </div>
-            </div>
-            <div className="address">
-              <p>Address</p>
-              <div className="addressedit">
-                <p>Location</p>
-                <button>Edit</button>
-              </div>
-            </div>
+            <PersonalFields fieldname="Your Name" fieldcontent="Viresh"/>
+            <PersonalFields fieldname="Email" fieldcontent="vireshkoli123@gmail.com"/>
+            <PersonalFields fieldname="Phone Number" fieldcontent="+91 9876543210"/>
+            <PersonalFields fieldname="Address" fieldcontent="Location"/>
           </div>
 
           <div className="about">
@@ -65,34 +45,10 @@ function Profile() {
         <div className="mainblock2">
           <div className="verifications">
             <h3>LEGAL STATUS</h3>
-            <div className="status">
-              <p>KYC Status</p>
-              <div className="statusbuttons">
-                <button>Edit</button>
-                <button id="highlight">Verified</button>
-              </div>
-            </div>
-            <div className="status">
-              <p>Aadhar Status</p>
-              <div className="statusbuttons">
-                <button>Edit</button>
-                <button id="highlight">Verified</button>
-              </div>
-            </div>
-            <div className="status">
-              <p>Credit Score</p>
-              <div className="statusbuttons">
-                <button id="checkscore">Check Score</button>
-                <button id="highlight">Good</button>
-              </div>
-            </div>
-            <div className="status">
-              <p>Company Score</p>
-              <div className="statusbuttons">
-                <button id="checkscore">Check Score</button>
-                <button id="highlight">Good</button>
-              </div>
-            </div>
+            <LegalStatusFields statusfieldname="KYC Status" statustype="Verified"/>
+            <LegalStatusFields statusfieldname="Aadhar Status" statustype="Verified"/>
+            <LegalStatusFields statusfieldname="Credit Score" statustype="Good" scorefield/>
+            <LegalStatusFields statusfieldname="Company Score" statustype="Good" scorefield/>
           </div>
 
           <div className="professional">
