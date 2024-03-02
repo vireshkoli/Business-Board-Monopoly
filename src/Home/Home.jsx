@@ -1,5 +1,8 @@
 import React from "react";
 import "./Home.css";
+
+import BoardType from "./BoardType.jsx";
+
 import profile from "../assets/Home Assets/profile.png";
 import landingimg from "../assets/Home Assets/landingimg.jpg";
 
@@ -29,6 +32,8 @@ function Home() {
         </div>
         <img id="landingimg" src={landingimg} alt="landingimg" />
       </div>
+      <BoardType boarddays="6"/>
+      <BoardType boarddays="8"/>
     </div>
   );
 }

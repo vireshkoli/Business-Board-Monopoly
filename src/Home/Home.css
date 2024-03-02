@@ -3,7 +3,7 @@
    flex-direction: column;
    background-color: rgb(228, 225, 225);
    width: 80rem;
-   height: 100vh;
+   height: auto;
    margin-left: 20.8vw;
    align-items: center;
 }
@@ -26,7 +26,7 @@
 
 .cover{
    width: 95%;
-   height: 60vh;
+   height: 58vh;
    background-color: rgba(80, 80, 216, 0.632);
    display: flex;
    justify-content: space-around;
@@ -41,8 +41,11 @@
 .covercontent h3{
    font-size: 2.2rem;
    font-weight: bold;
+   color: white;
+   text-shadow: 1.5px 1.5px black;
 }
 .covercontent p{
+   color: rgb(42, 41, 41);
    font-size: 1rem;
    margin-top: 1rem;
    line-height: 1.5rem;
