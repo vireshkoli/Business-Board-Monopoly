@@ -1,0 +1,9 @@
+.dashboardcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(228, 225, 225);
+  width: 80rem;
+  height: auto;
+  margin-left: 20.8vw;
+  align-items: center;
+}

@@ -27,7 +27,7 @@
 .cover{
    width: 95%;
    height: 58vh;
-   background-color: rgba(80, 80, 216, 0.632);
+   background-color: rgba(106, 106, 244, 0.632);
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -39,17 +39,19 @@
    width: 35%;
 }
 .covercontent h3{
-   font-size: 2.2rem;
-   font-weight: bold;
-   color: white;
-   text-shadow: 1.5px 1.5px black;
+   font-size: 2.3rem;
+   font-weight: bolder;
+   color: black;
+   text-shadow: 0.3px 0.3px black;
 }
 .covercontent p{
-   color: rgb(42, 41, 41);
+   color: rgb(45, 45, 45);
    font-size: 1rem;
+   font-weight: 700;
    margin-top: 1rem;
    line-height: 1.5rem;
    font-weight: 400;
+   text-shadow: 0.3px 0.3px black;
 }
 #landingimg{
    width: 40%;

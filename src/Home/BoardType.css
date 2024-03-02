@@ -2,7 +2,7 @@
     display: flex;
     background-color: rgb(178, 198, 253);
     width: 92%;
-    height: 15vh;
+    height: 20vh;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
@@ -14,17 +14,23 @@
     display: flex;
     flex-direction: column;
     line-height: 2.5rem;
-    margin: 1rem;
+    margin: 1rem 1.5rem 1rem 1.5rem;
 }
 .boardcategorycontent h3{
     font-size: 1.7rem;
-    text-shadow: 0.5px 0.5px black;
+    font-weight: bolder;
+}
+.boardcategorycontent p{
+    font-size: 1.1rem;
+    color: rgb(66, 65, 65);
+    font-weight: 500;
 }
 .boardcategory button{
     width: 10%;
     border: none;
     background-color: rgba(80, 80, 216);
     padding: 1rem;
+    margin-right: 1.5rem;
     color: white;
     font-size: 1rem;
     font-weight: 700;

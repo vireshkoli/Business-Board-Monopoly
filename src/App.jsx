@@ -5,6 +5,7 @@ import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
 import Profile from "./Profile/Profile";
+import Dashboard from "./Dashboard/Dashboard";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/profile" element={<Profile />} />
+          <Route exact path="/dashboard" element={<Dashboard />} />
         </Routes>
         {/* Footer Here */}
       </Router>
