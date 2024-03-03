@@ -1,7 +1,7 @@
 .homecontainer{
    display: flex;
    flex-direction: column;
-   background-color: rgb(228, 225, 225);
+   background-color: rgb(230, 228, 228);
    width: 80rem;
    height: auto;
    margin-left: 20.8vw;
@@ -27,7 +27,8 @@
 .cover{
    width: 95%;
    height: 58vh;
-   background-color: rgba(106, 106, 244, 0.632);
+   /* background-color: rgba(106, 106, 244, 0.632); */
+   background-color: rgb(33, 25, 81);
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -41,11 +42,11 @@
 .covercontent h3{
    font-size: 2.3rem;
    font-weight: bolder;
-   color: black;
+   color: white;
    text-shadow: 0.3px 0.3px black;
 }
 .covercontent p{
-   color: rgb(45, 45, 45);
+   color: rgb(203, 203, 203);
    font-size: 1rem;
    font-weight: 700;
    margin-top: 1rem;
@@ -69,7 +70,8 @@
    font-size: 1rem;
    font-weight: 700;
    border: none;
-   background-color: rgba(80, 80, 216);
+   /* background-color: rgba(80, 80, 216); */
+   background-color: rgb(131, 111, 255);
    color: white;
    border-radius: 2rem;
    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;

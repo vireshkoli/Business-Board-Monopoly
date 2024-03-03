@@ -4,7 +4,8 @@
 }
 @media (min-width: 768px) {
     .navcontainer {
-        background-color: white;
+        /* background-color: white; */
+        background-color: #F3F8FF;
         width: 20rem;
         height: 100%;
         display: flex;

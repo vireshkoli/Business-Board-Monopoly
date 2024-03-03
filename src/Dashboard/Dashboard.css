@@ -1,9 +1,57 @@
 .dashboardcontainer {
   display: flex;
   flex-direction: column;
-  background-color: rgb(228, 225, 225);
+  background-color: white;
   width: 80rem;
   height: auto;
   margin-left: 20.8vw;
   align-items: center;
+}
+.boardmembers {
+  width: 95%;
+  height: 10rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.members {
+  /* background-color: rgb(131, 111, 255); */
+  background-color: rgba(33, 25, 81, 0.91);
+  color: white;
+  /* text-shadow: 0.5px 0.5px white; */
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.members h3, .viewdetails h3{
+  margin-left: 1rem;
+}
+.members img{
+  width: 3rem;
+  margin-right: 1rem;
+}
+.viewdetails{
+  /* background-color: rgb(108, 122, 231); */
+  background-color: rgba(137, 137, 250, 0.841);
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3rem;
+  border: 3px solid black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  cursor: pointer;
+}
+.viewdetails img{
+  width: 3rem;
+  margin-right: 1rem;
 }

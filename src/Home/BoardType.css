@@ -1,6 +1,7 @@
 .boardcategory{
     display: flex;
-    background-color: rgb(178, 198, 253);
+    /* background-color: rgb(178, 198, 253); */
+    background-color: rgb(131, 111, 255);
     width: 92%;
     height: 20vh;
     align-items: center;
@@ -22,13 +23,14 @@
 }
 .boardcategorycontent p{
     font-size: 1.1rem;
-    color: rgb(66, 65, 65);
+    color: rgb(240, 240, 240);
     font-weight: 500;
 }
 .boardcategory button{
     width: 10%;
     border: none;
-    background-color: rgba(80, 80, 216);
+    /* background-color: rgba(80, 80, 216); */
+    background-color: rgb(33, 25, 81);
     padding: 1rem;
     margin-right: 1.5rem;
     color: white;
