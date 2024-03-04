@@ -1,0 +1,34 @@
+.day{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 25, 81);
+    color: white;
+    width: 92%;
+    height: auto;
+    padding: 1rem;
+    margin: 0.3rem;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.day h3{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.memberstatus{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.6rem;
+}
+.memberstatus p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.day button{
+    color: white;
+    border: none;
+   background-color: rgb(131, 111, 255);
+    width: 10%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}

@@ -30,7 +30,7 @@ function Home() {
             <button>About Us</button>
           </div>
         </div>
-        <img id="landingimg" src={landingimg} alt="landingimg" />
+        <img className="shadow" id="landingimg" src={landingimg} alt="landingimg" />
       </div>
       <BoardType boarddays="6"/>
       <BoardType boarddays="8"/>
