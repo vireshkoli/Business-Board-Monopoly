@@ -32,3 +32,12 @@
     border-radius: 1rem;
     font-size: 1rem;
 }
+
+.opacitylow{
+    opacity:  0.7;
+}
+.lockimg{
+    width: 20%;
+    display: flex;
+    margin: auto;
+}

@@ -6,6 +6,8 @@ import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
 import Profile from "./Profile/Profile";
 import Dashboard from "./Dashboard/Dashboard";
+import BoardList6 from "./Boards List/BoardList6";
+import BoardList8 from "./Boards List/BoardList8";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/6dayboards" element={<BoardList6 />} />
+          <Route exact path="/8dayboards" element={<BoardList8 />} />
           <Route exact path="/profile" element={<Profile />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
         </Routes>

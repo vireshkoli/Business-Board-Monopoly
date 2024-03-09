@@ -11,7 +11,7 @@ function BoardType(props) {
           {props.boarddays} Days
         </p>
       </div>
-      <button>Explore</button>
+      <button><a href={props.boardhref}>Explore</a></button>
     </div>
   );
 }

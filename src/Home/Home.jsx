@@ -32,8 +32,8 @@ function Home() {
         </div>
         <img className="shadow" id="landingimg" src={landingimg} alt="landingimg" />
       </div>
-      <BoardType boarddays="6"/>
-      <BoardType boarddays="8"/>
+      <BoardType boarddays="6" boardhref="/6dayboards"/>
+      <BoardType boarddays="8" boardhref="/8dayboards"/>
     </div>
   );
 }
