@@ -3,75 +3,19 @@ import { useState } from "react";
 import "./Dashboard.css";
 
 import memberimg from "../assets/Home Assets/profile.png";
-import detailsimg from "../assets/Dashboard Assets/detailsimg.png";
 
 import Day from "./Day.jsx";
+import Members from "./Members.jsx";
 
 function Dashboard() {
-  const [hoverA, setHoverA] = useState(false);
-  const [hoverB, setHoverB] = useState(false);
-  const [hoverC, setHoverC] = useState(false);
-  const [hoverD, setHoverD] = useState(false);
-  const [hoverE, setHoverE] = useState(false);
-
   return (
     <div className="dashboardcontainer">
       <div className="boardmembers">
-        <div
-          onMouseEnter={() => setHoverA(true)}
-          onMouseLeave={() => setHoverA(false)}
-          className={`members ${hoverA ? "expand" : ""}`}
-        >
-          <div className="membercontent">
-            <h3>Person A</h3>
-            <img src={memberimg} alt="" />
-          </div>
-          {hoverA ? <div className="popupcontent">Hii I am Popup</div> : ""}
-        </div>
-        <div
-          onMouseEnter={() => setHoverB(true)}
-          onMouseLeave={() => setHoverB(false)}
-          className={`members ${hoverB ? "expand" : ""}`}
-        >
-          <div className="membercontent">
-            <h3>Person B</h3>
-            <img src={memberimg} alt="" />
-          </div>
-          {hoverB ? <div className="popupcontent">Hii I am Popup</div> : ""}
-        </div>
-        <div
-          onMouseEnter={() => setHoverC(true)}
-          onMouseLeave={() => setHoverC(false)}
-          className={`members ${hoverC ? "expand" : ""}`}
-        >
-          <div className="membercontent">
-            <h3>Person C</h3>
-            <img src={memberimg} alt="" />
-          </div>
-          {hoverC ? <div className="popupcontent">Hii I am Popup</div> : ""}
-        </div>
-        <div
-          onMouseEnter={() => setHoverD(true)}
-          onMouseLeave={() => setHoverD(false)}
-          className={`members ${hoverD ? "expand" : ""}`}
-        >
-          <div className="membercontent">
-            <h3>Person D</h3>
-            <img src={memberimg} alt="" />
-          </div>
-          {hoverD ? <div className="popupcontent">Hii I am Popup</div> : ""}
-        </div>
-        <div
-          onMouseEnter={() => setHoverE(true)}
-          onMouseLeave={() => setHoverE(false)}
-          className={`members ${hoverE ? "expand" : ""}`}
-        >
-          <div className="membercontent">
-            <h3>Person E</h3>
-            <img src={memberimg} alt="" />
-          </div>
-          {hoverE ? <div className="popupcontent">Hii I am Popup</div> : ""}
-        </div>
+        <Members name="Person A" civilscore="300" countryscore="400" boards="10"  invested="5500" />
+        <Members name="Person B" civilscore="300" countryscore="400" boards="10"  invested="5500" />
+        <Members name="Person C" civilscore="300" countryscore="400" boards="10"  invested="5500" />
+        <Members name="Person D" civilscore="300" countryscore="400" boards="10"  invested="5500" />
+        <Members name="Person E" civilscore="300" countryscore="400" boards="10"  invested="5500" />
       </div>
       <div className="boarddays">
         <Day
