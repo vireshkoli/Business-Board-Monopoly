@@ -29,6 +29,9 @@
     align-items: center;
     justify-content: space-between;
   }
+  .membercontentimg{
+    cursor: pointer;
+  }
   .popupcontent{
     /* background-color: aqua; */
     width: 95%;

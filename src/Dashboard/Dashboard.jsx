@@ -11,11 +11,52 @@ function Dashboard() {
   return (
     <div className="dashboardcontainer">
       <div className="boardmembers">
-        <Members name="Person A" civilscore="300" countryscore="400" boards="10"  invested="5500" />
-        <Members name="Person B" civilscore="300" countryscore="400" boards="10"  invested="5500" />
-        <Members name="Person C" civilscore="300" countryscore="400" boards="10"  invested="5500" />
-        <Members name="Person D" civilscore="300" countryscore="400" boards="10"  invested="5500" />
-        <Members name="Person E" civilscore="300" countryscore="400" boards="10"  invested="5500" />
+        <Members
+          name="Person A"
+          civilscore="300"
+          countryscore="400"
+          boards="10"
+          invested="5500"
+        />
+        <Members
+          name="Person B"
+          civilscore="300"
+          countryscore="400"
+          boards="10"
+          invested="5500"
+        />
+        <Members
+          name="Person C"
+          civilscore="300"
+          countryscore="400"
+          boards="10"
+          invested="5500"
+        />
+        <Members
+          name="Person D"
+          civilscore="300"
+          countryscore="400"
+          boards="10"
+          invested="5500"
+        />
+        <Members
+          name="Person E"
+          civilscore="300"
+          countryscore="400"
+          boards="10"
+          invested="5500"
+        />
+      </div>
+      <div className="referals">
+        <p>Do you know any users :</p>
+        <div className="refbuttons">
+          <button>
+            <a href="">Gauranter</a>
+          </button>
+          <button>
+            <a href="">Reference</a>
+          </button>
+        </div>
       </div>
       <div className="boarddays">
         <Day

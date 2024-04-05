@@ -23,6 +23,17 @@
     font-size: 1.2rem;
     font-weight: 700;
 }
+.memberspan{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+.memberspan img{
+    width: 2rem;
+    cursor: pointer;
+}
 .day button{
     color: white;
     border: none;

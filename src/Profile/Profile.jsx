@@ -47,8 +47,10 @@ function Profile() {
             <h3>LEGAL STATUS</h3>
             <LegalStatusFields statusfieldname="KYC Status" statustype="Verified"/>
             <LegalStatusFields statusfieldname="Aadhar Status" statustype="Verified"/>
+            <LegalStatusFields statusfieldname="Pan Status" statustype="Verified"/>
             <LegalStatusFields statusfieldname="Credit Score" statustype="Good" scorefield/>
             <LegalStatusFields statusfieldname="Company Score" statustype="Good" scorefield/>
+            <LegalStatusFields statusfieldname="Gomacile licence" statustype="Verified"/>
           </div>
 
           <div className="professional">
