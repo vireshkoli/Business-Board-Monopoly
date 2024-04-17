@@ -1,0 +1,13 @@
+.analyticscontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(230, 228, 228);
+  width: 80%;
+  height: auto;
+  margin-left: 20rem;
+  align-items: center;
+}
+.analyticscontainer img{
+    width: 90%;
+    object-fit: contain;
+}

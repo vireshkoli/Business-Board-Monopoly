@@ -24,16 +24,57 @@
     border-radius: 2rem;
 }
 .dialogcontainer{
-    background-color: aqua;
+    background-color: rgb(131, 111, 255);
     display: flex;
     flex-direction: column;
     position: absolute;
     width: 20vw;
-    height: 50vh;
+    max-height: 53vh;
     top: 0;
     bottom: 0;
     margin: auto;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.dialoginfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.boarddetail div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem;
 }
 .boarddetail img{
     width: 2rem;
+}
+.boardjoin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.boardjoin input{
+    border: none;
+    margin-left: 0.5rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+}
+.boardjoin button{
+    background-color: rgba(33, 25, 81, 0.91);
+    color:white;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+::placeholder{
+    padding-left: 0.5rem;
 }

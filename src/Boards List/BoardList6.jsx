@@ -9,7 +9,7 @@ function BoardList6() {
   const [openDialog, setOpenDialog] = useState(false);
 
   function handleClick() {
-    setOpenDialog(true);
+    setOpenDialog(!openDialog);
   }
 
   return (
@@ -19,8 +19,8 @@ function BoardList6() {
         <img src={search} alt="search" />
       </div>
       <div className="boardlist">
-        <Board boardtitle="Demo Board 1" investmentperday="1000" openDialog={openDialog} handleClick={handleClick}/>
-        <Board boardtitle="Demo Board 2" investmentperday="2000" openDialog={openDialog} handleClick={handleClick}/>
+        <Board boardtitle="Demo Board 1" boardopen={true} investmentperday="1000" openDialog={openDialog} handleClick={handleClick}/>
+        <Board boardtitle="Demo Board 2" boardopen={false} investmentperday="2000" openDialog={openDialog} handleClick={handleClick}/>
       </div>
     </div>
   )

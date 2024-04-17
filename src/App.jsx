@@ -8,6 +8,7 @@ import Profile from "./Profile/Profile";
 import Dashboard from "./Dashboard/Dashboard";
 import BoardList6 from "./Boards List/BoardList6";
 import BoardList8 from "./Boards List/BoardList8";
+import Analytics from "./Analytics/Analytics";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/8dayboards" element={<BoardList8 />} />
           <Route exact path="/profile" element={<Profile />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
+          <Route exact path="/analytics" element={<Analytics />} />
         </Routes>
         {/* Footer Here */}
       </Router>
